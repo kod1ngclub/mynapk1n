@@ -11,8 +11,6 @@ join our discord server and tell about your idea.
 
 [Join our discord][discord]
 
-// what is model-layer?
-
 ```txt
 [model]
 - Entity of app
