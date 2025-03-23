@@ -5,6 +5,6 @@ import { StoreOption } from "./shared/option"
 export interface NoteStore {
     CreateNote(content: NoteContent): StoreOption<Note>
     ReadNotesByCount(count: number): StoreOption<Array<Note>>
-    UpdateNote(id: NoteUid, content: NoteContent): StoreOption<Note>
-    DeleteNote(id: NoteUid): StoreOption<Note>
+    UpdateNote(uid: NoteUid, content: NoteContent): StoreOption<Note>
+    DeleteNote(uid: NoteUid): StoreOption<Note>
 }
