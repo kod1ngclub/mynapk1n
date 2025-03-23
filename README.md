@@ -28,7 +28,7 @@ join our discord server and tell about your idea.
 
 [view]
 - Entity and interface of UI
-- If value needed to be synced between model and view, MUST from model to view
+- If value needed to be synced between 'model' and 'view', MUST from 'model' to 'view'
 ```
 
 [deployed]: https://mynapk1n.vercel.app
